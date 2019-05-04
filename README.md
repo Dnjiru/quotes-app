@@ -51,5 +51,24 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Support and contact details
 It is unlikely that you run into any issues as you use the application. But incase you do, please drop me an email at mr.mwaniki@gmail.com.
 
+You are also welcome to contribute to the code that is available on GitHub.
+
+Please reach out for collaboration, consultation or just "Hi, Let's have Coffee."}
+
+## Authors Information
+David Mwaniki Njiru, is a full stack development student.He recently enrolled for Web and Mobile Apps development. A Journey that has opened his vision into a new horizon. He has a background in Electrical and Mechanical Services in Data Centres and High Critical Enviroment. He has been working in the Telcom Industry for the last 10Years.
+
+## Access Application
+Here is the link to GitHub Page where you can access the application online.
+
+
+### License
+This application use MIT License.
+Copyright (c) {2019} **{List of contributors; David Mwaniki. Technical Mentor: Sam. Moringa School}**
+
+
+
+
+## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
