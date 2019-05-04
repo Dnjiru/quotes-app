@@ -12,6 +12,8 @@ export class QuoteComponent implements OnInit {
     new Quote(1, 'H. Jackson Brown', 'The Best Preparation for Tomorrow is doing your Best Today.', 'Admin', new Date(2019, 5, 4)),
     new Quote(2, 'Brian Tracy', 'There is No Limit to What we can Accomplish, Except the Limits you place on Your Own Thinking.', 'Admin', new Date(2019, 4, 12)),
     new Quote(3, 'Annonymous', 'Work hard in silence, Let your Success be Your Noise.', 'Admin', new Date(2019, 5, 3)),
+    new Quote(4, 'Annonymous', 'If You think you are Small to make a Difference, Spend a Night with a Mosquito.', 'Admin', new Date(2019, 4, 3)),
+
 
   ]
 
