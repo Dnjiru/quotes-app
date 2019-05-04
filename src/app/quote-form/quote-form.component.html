@@ -3,7 +3,7 @@
       <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
         <!-- authors details -->
         <div class="form-group">
-          <label for="name">Original Authors Name</label>
+          <label for="name">Original Author's Name</label>
           <input type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required>
           <div [hidden]="name.valid || name.pristine" class="alert alert-warning">
             <p>Please add original author's name</p>

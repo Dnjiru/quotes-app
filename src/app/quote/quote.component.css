@@ -9,11 +9,12 @@
 }
 
 #two {
-  background-image: url('/assets/huh.jpg');
+  background-image: url('/assets/sky.jpg');
 }
 
 #lol {
   justify-content: center;
+  color: white;
 }
 
 #cre {
@@ -50,8 +51,9 @@
 #one {
   align-content: center;
   text-align: center;
-  background-image: url('/assets/free.jpg');
-  color: yellow;
+  background-image: url('/assets/sky.jpg');
+  /* background-repeat: no-repeat; */
+  color: rgb(255, 255, 255);
   font-size: 16px;
 
 }
