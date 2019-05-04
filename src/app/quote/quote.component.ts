@@ -13,6 +13,8 @@ export class QuoteComponent implements OnInit {
     new Quote(2, 'Brian Tracy', 'There is No Limit to What we can Accomplish, Except the Limits you place on Your Own Thinking.', 'Admin', new Date(2019, 4, 12)),
     new Quote(3, 'Annonymous', 'Work hard in silence, Let your Success be Your Noise.', 'Admin', new Date(2019, 5, 3)),
     new Quote(4, 'Annonymous', 'If You think you are Small to make a Difference, Spend a Night with a Mosquito.', 'Admin', new Date(2019, 4, 3)),
+    new Quote(5, 'African Proverb', 'No Matter the Economy of the Jungle, A Lion will never eat grass.', 'Admin', new Date(2019, 5, 1)),
+
 
 
   ]
