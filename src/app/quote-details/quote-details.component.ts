@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Quotes } from '../model/quotes';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Quote } from '../quote';
 
 @Component({
   selector: 'app-quote-details',
@@ -8,9 +8,12 @@ import { Quotes } from '../model/quotes';
 })
 export class QuoteDetailsComponent implements OnInit {
 
-  @Input() quotes:Quotes;
+  @Input() quote: Quote;
+  @Output() isComplete = new EventEmitter<boolean>();//transmits to the delete trigger from parent component on delete function
 
-  constructor() { }
+  quoteDelete(complete: boolean) {
+    this.isComplete.emit(complete);
+  }
 
   ngOnInit() {
   }
